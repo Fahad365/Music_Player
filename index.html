@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <!-- Player Container -->
+    <div class="player-container">
+      <!-- Image Container -->
+      <div class="img-container">
+        <img src="./img/Bad Liar.jpg" alt="Bad Liar" />
+      </div>
+      <h2 class="title">Bad Liar</h2>
+      <h3 class="artist">Imagine Dragon</h3>
+      <audio class="song" src="/music/Bad Liar.mp3"></audio>
+      <!-- Progress Start -->
+      <div class="progress-container" id="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+        <div class="song-duration">
+          <span id="current-time">0:00</span>
+          <span id="total-duration">3:00</span>
+        </div>
+      </div>
+      <!-- Progress End -->
+
+      <!-- Button Control Start-->
+      <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-circle-play main-button" id="main" title="play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+      </div>
+      <!-- Button Control End -->
+    </div>
+  </body>
+</html>
