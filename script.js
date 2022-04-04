@@ -77,7 +77,7 @@ function prevSong() {
     songIndex = songs.length - 1;
   }
   loadSongs(songs[songIndex]);
-  // playSong();
+  playSong();
 }
 // Next Song Functionality
 function nextSong() {
@@ -86,10 +86,10 @@ function nextSong() {
     songIndex = 0;
   }
   loadSongs(songs[songIndex]);
-  // playSong();
+  playSong();
 }
 
-// loadSongs(songs[songIndex]);
+loadSongs(songs[songIndex]);
 
 // update Progress Bar functionality
 function updateProgressBar(e) {
