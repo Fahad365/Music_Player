@@ -20,7 +20,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.4);
 }
 .img-container {
   position: relative;
@@ -60,7 +60,7 @@ h3 {
   background: red;
   border-radius: 5px;
   height: 100%;
-  width: 50%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 .song-duration {
